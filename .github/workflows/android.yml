@@ -24,4 +24,5 @@ jobs:
     - name: Build and test the app
       run: |
         chmod +x gradlew
+        chmod +x /home/runner/.gradle/wrapper/dists/gradle-2.2.1-all/6dibv5rcnnqlfbq9klf8imrndn/gradle-2.2.1/bin/gradle
         ./gradlew build
